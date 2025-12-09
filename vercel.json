@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/google/(.*)",
+            "destination": "https://generativelanguage.googleapis.com/v1beta/$1"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
